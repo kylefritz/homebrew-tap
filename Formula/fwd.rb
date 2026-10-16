@@ -1,8 +1,8 @@
 class Fwd < Formula
   desc "SSH port forwarding for the macOS menu bar"
   homepage "https://github.com/kylefritz/fwd"
-  url "https://github.com/kylefritz/fwd/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "e68aa4406fb619f44c6169b341e514e508ff0e48e9d1d22e4d66dda80bec5772"
+  url "https://github.com/kylefritz/fwd/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "d0d69794a24c02f55d4968596c010c530d6138e589eae29c47491c27105238c9"
   license "MIT"
 
   depends_on arch: :arm64
@@ -20,8 +20,8 @@ class Fwd < Formula
   def caveats
     <<~EOS
       Start fwd from a terminal with:
-        fwd
-      It lives in the menu bar. Ports are kept in ~/.config/fwd/ports.yaml.
+        fwd open
+      It lives in the menu bar. `fwd` alone lists the commands. Ports are kept in ~/.config/fwd/ports.yaml.
     EOS
   end
 
