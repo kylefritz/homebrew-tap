@@ -1,8 +1,8 @@
 class Fwd < Formula
   desc "SSH port forwarding for the macOS menu bar"
   homepage "https://github.com/kylefritz/fwd"
-  url "https://github.com/kylefritz/fwd/archive/refs/tags/v0.2.2.tar.gz"
-  sha256 "d799c0c36f685aafb252c87ffc68930683376d1da2ca13df7e9178bdb58291de"
+  url "https://github.com/kylefritz/fwd/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "3c7c284340457f3a621160756fb56c2685df6d1f382b4d2d561ea4ce8a0fb499"
   license "MIT"
 
   depends_on arch: :arm64
